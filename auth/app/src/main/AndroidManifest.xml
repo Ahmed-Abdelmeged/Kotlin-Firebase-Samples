@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.ahmedabdelmeged.auth">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".ChooserActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".CustomAuthActivity"
+            android:label="@string/label_custom_auth" />
+        <activity
+            android:name=".GoogleSignInActivity"
+            android:label="@string/label_google_sign_in" />
+        <activity
+            android:name=".FacebookLoginActivity"
+            android:label="@string/label_facebook_login" />
+        <activity
+            android:name=".EmailPasswordActivity"
+            android:label="@string/label_emailpassword"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".PhoneAuthActivity"
+            android:label="@string/label_phone_auth"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".AnonymousAuthActivity"
+            android:label="@string/label_anonymous_auth" />
+        <activity
+            android:name=".TwitterLoginActivity"
+            android:label="@string/label_twitter_login" />
+        <activity
+            android:name=".FirebaseUIActivity"
+            android:label="@string/label_firebase_ui" />
+
+        <!-- Facebook Configuration -->
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            tools:replace="android:value"
+            android:value="@string/facebook_app_id" />
+
+        <activity
+            android:name="com.facebook.FacebookActivity"
+            tools:replace="android:theme"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+    </application>
+
+
+</manifest>
