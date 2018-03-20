@@ -12,17 +12,16 @@ Available samples in Kotlin. Rest of the samples are in progress and will upload
 * [Datbase](https://github.com/Ahmed-Abdelmeged/Kotlin-Firebase-Samples/tree/master/database)
 * [Firestore](https://github.com/Ahmed-Abdelmeged/Kotlin-Firebase-Samples/tree/master/firestore)
 * [Storage](https://github.com/Ahmed-Abdelmeged/Kotlin-Firebase-Samples/tree/master/storage)
+* [config](https://github.com/Ahmed-Abdelmeged/Kotlin-Firebase-Samples/tree/master/config)
 
 ## TODO
 * Admob
 * App-Indexing
-* Config
 * Crash
 * Dynamic Links
 * Invites
 * Messaging
 * Performance Monitoring
-* Storage
 
 ## contributions
 Contributions are open to improve Kotlin code and add others samples just make a PR
