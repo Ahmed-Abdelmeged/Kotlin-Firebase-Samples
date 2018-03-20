@@ -12,7 +12,7 @@ Available samples in Kotlin. Rest of the samples are in progress and will upload
 * [Datbase](https://github.com/Ahmed-Abdelmeged/Kotlin-Firebase-Samples/tree/master/database)
 * [Firestore](https://github.com/Ahmed-Abdelmeged/Kotlin-Firebase-Samples/tree/master/firestore)
 * [Storage](https://github.com/Ahmed-Abdelmeged/Kotlin-Firebase-Samples/tree/master/storage)
-* [config](https://github.com/Ahmed-Abdelmeged/Kotlin-Firebase-Samples/tree/master/config)
+* [Config](https://github.com/Ahmed-Abdelmeged/Kotlin-Firebase-Samples/tree/master/config)
 
 ## TODO
 * Admob
